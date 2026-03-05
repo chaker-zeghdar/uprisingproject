@@ -35,7 +35,7 @@ export const Checkout = () => {
         const { data, error } = await supabase
           .from('wilayas')
           .select('*')
-          .order('name');
+          .order('code', { ascending: true });
         if (error) throw error;
         setWilayas(data || []);
       } catch (err) {
