@@ -47,9 +47,14 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-zinc-900 pt-10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p className="text-zinc-600 text-[10px] uppercase tracking-widest font-bold">
-            © 2026 UPRISING PROJECT. ALL RIGHTS RESERVED.
-          </p>
+          <div>
+            <p className="text-zinc-600 text-[10px] uppercase tracking-widest font-bold">
+              © 2026 UPRISING PROJECT. ALL RIGHTS RESERVED.
+            </p>
+            <p className="text-zinc-700 text-[9px] uppercase tracking-widest font-bold mt-2">
+              Created by Chaker Zeghdar
+            </p>
+          </div>
           <div className="flex space-x-8">
             <a href="#" className="text-zinc-600 hover:text-zinc-400 text-[10px] uppercase tracking-widest font-bold transition-colors">Privacy Policy</a>
             <a href="#" className="text-zinc-600 hover:text-zinc-400 text-[10px] uppercase tracking-widest font-bold transition-colors">Terms of Service</a>
