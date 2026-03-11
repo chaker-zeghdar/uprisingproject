@@ -1,0 +1,5 @@
+{
+  "name": "Ecommerce Admin Dashboard",
+  "description": "A modern, responsive admin dashboard for managing products, orders, customers, and settings for an ecommerce store, powered by Supabase.",
+  "requestFramePermissions": []
+}
